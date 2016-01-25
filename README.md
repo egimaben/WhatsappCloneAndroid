@@ -1,6 +1,7 @@
 #WhatsappCloneMaster
 #####In this section
 In this tutorial, we are going to take it a notch higher and build  a clone for WhatsApp messenger, a widely used IM application.
+<p>&nbsp;</p>
 <img class="center-img" alt="Whatsapp android Clone" src="https://github.com/egimaben/WhatsappCloneAndroid/blob/master/chat_members_screen.PNG">
 <p>&nbsp;</p>
 ><span class="tut-info">Info</span> here you will learn how to use CloudBoost notification queries i.e how to apply a query on real time notifications so that you are only notified of specific events that meet the query criteria.
