@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/call_action"
+        android:icon="@drawable/ic_full_call"
+        android:title="@string/menu_call"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/attach_action"
+        android:icon="@drawable/ic_action_attach"
+        android:title="@string/menu_attach"
+        app:showAsAction="always"/>
+
+</menu>

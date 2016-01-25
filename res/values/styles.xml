@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo">
+    </style>
+
+    <style name="Base.Theme.DesignDemo" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#006A4E</item>
+        <item name="colorPrimaryDark">#006A4E</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <style name="Widget.CardContent" parent="android:Widget">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">24dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+</resources>

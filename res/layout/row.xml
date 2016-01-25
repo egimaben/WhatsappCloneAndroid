@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:descendantFocusability="afterDescendants"
+    android:weightSum="8" >
+
+    <ImageView
+        android:id="@+id/my_avatar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:src="@drawable/online" >
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="6"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginLeft="1dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bengi Egima"
+                android:textColor="#444444"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/last_msg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hello, whats up?"
+                android:textColor="#515151"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|center_vertical"
+        android:layout_weight="1"
+        android:text="10:45"
+        android:textColor="@color/grey"
+        android:textSize="12sp" />
+
+</LinearLayout>
