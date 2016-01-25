@@ -39,7 +39,7 @@ With this name set as the <code>App.CURRENT_USER</code> in our android applicati
 We there fore have a listener for <code>created</code> events on that table. When this notification arrives, we simply create a record out of it and add it to the adapter attached to our Chats ListView.
 ##Message State##
 When a user clicks the name of a person to chat with from the first screen above, we launch the <code>ChatBubbleActivity</code>. This activity hosts our chats with a given user. It has a material design <code>ToolBar</code> for navigation just like it is on whatsapp.
-<img class="center-img" alt="Whatsapp android chats" src="https://github.com/egimaben/WhatsappCloneAndroid/blob/master/chatscreen.png">
+<img class="center-img" alt="Whatsapp android chats" src="WhatsappCloneAndroid/chatscreen.PNG">
 When user navigates back to <code>MainActivity</code> using the up arrow, we have the adapter of the current listview saved in <code>App</code> under the current chat name. This way, when user returns to continue chat with this person, we recreate the view but just pick the existing adapter to continue from where we stopped.
 
 
